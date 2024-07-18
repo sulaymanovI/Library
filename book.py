@@ -1,9 +1,9 @@
 
-class Book:
+class Book:         #Создать Одну Книгу
 
     _id_counter=1
 
-    def __init__(self, title , author , year) -> None:
+    def __init__(self, title , author , year) -> None:    #Инициализирование атрибутов
     
         self.id = Book._id_counter
         Book._id_counter+=1
